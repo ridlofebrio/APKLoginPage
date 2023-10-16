@@ -67,12 +67,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:id="@id/text2"
+        android:textColor="@color/primarycolor"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
+        android:textSize="18dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/white"
         android:layout_below="@id/text2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
