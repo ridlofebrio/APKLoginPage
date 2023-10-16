@@ -46,8 +46,22 @@
         android:layout_centerHorizontal="true"
         android:width="200dp"
         android:text="Enter your full name"
+        android:textSize="10dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/buttonlogindanregister"
+        android:id="@+id/button1"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        android:text=""
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonlogindanregister"
+        android:id="@+id/button2"
         />
 
 </RelativeLayout>
