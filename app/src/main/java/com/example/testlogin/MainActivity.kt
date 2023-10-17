@@ -12,16 +12,24 @@ import android.view.Menu
 import android.view.MenuItem
 import com.example.testlogin.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.button1
+import kotlinx.android.synthetic.main.activity_main.button2
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        supportActionBar?.hide()
         btnLoginListerner()
+        btnRegisterListerner()
 }
     private fun btnLoginListerner() {
         button1.setOnClickListener(){
             startActivities(arrayOf(Intent(this, Login::class.java)))
+        }
+    }
+    private fun btnRegisterListerner() {
+        button2.setOnClickListener(){
+            startActivities(arrayOf(Intent(this, register::class.java)))
         }
     }
 
